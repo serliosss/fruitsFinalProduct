@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-A-M-E Online</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/fonts/style.css">
+</head>
+<body>
+    <header class="header">
+        <section class="section header-hello">
+            <div class="hello-email">
+                <img src="/image/hello-email.svg" class="hello-email-img" alt="почта">
+                <p class="hello-email-text">Hello@colorlib.com</p>
+            </div>
+            <img src="/image/hello-line.svg" alt="раздельная линия" class="header-hello-line">
+            
+            <div class="hello-order">
+                <p class="hello-order-text">Free Shipping for all order of $99</p>
+            </div>
+            
+            <div class="hello-contacts">
+                <a href="#"><img src="/image/hello-contacts-facebook.svg" alt="Фейсбук" class="hello-contacts-img-facebook"></a>
+                <a href="#"><img src="/image/hello-contacts-wa.svg" alt="Ватсапп" class="hello-contacts-img-wa"></a>
+                <a href="#"><img src="/image/hello-contacts-instagram.svg" alt="Инстаграм" class="hello-contacts-img-instagram"></a>
+                <a href="#"><img src="/image/hello-contacts-twitter.svg" alt="Твитер" class="hello-contacts-img"></a>
+            </div>
+        </section>
+
+        <section class="section header-search">
+            <div class="search-logo">
+                <p class="search-logo--text"><b>LOGO</b></p>
+                <p class="search-logo--emoji">🍎</p>
+            </div>
+
+            <div class="search-city">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#999" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                </svg>
+                <p class="search-city--text">Gurugram</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#999" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </div>
+
+            <div class="search-search">
+                <button class="search-search--button" aria-label="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg>
+                </button>
+                <input class="search-search--input" type="text" placeholder="Search for products...">
+            </div>
+
+            <div class="search-other">
+                <div class="search-other--phone">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2A2A2A" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                    </svg>
+                    <p class="search-other--phone__text">1800-000-000</p>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="2" height="24" viewBox="0 0 2 24" fill="none">
+                    <path d="M1 0V24" stroke="#2A2A2A" stroke-opacity="0.2" stroke-width="2"/>
+                </svg>
+
+                <div class="search-other--like">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2A2A2A" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                    </svg>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="2" height="24" viewBox="0 0 2 24" fill="none">
+                    <path d="M1 0V24" stroke="#2A2A2A" stroke-opacity="0.2" stroke-width="2"/>
+                </svg>
+
+                <div class="search-other--account">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2A2A2A" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                    </svg>
+                    <p class="search-other--account__name">John Doe</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#2A2A2A" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="section header-catalog">
+            <button class="header-catalog--select-categories">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_202_71)">
+                        <path d="M2 12H14V10.6667H2V12ZM2 8.66667H14V7.33333H2V8.66667ZM2 4V5.33333H14V4H2Z" fill="#2A2A2A"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_202_71">
+                        <rect width="16" height="16" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                <p class="header-catalog--select-categories__text">Select Categories</p>
+            </button>
+
+            <div class="header-catalog--select-page">
+                <a href="#" class="link-active">HOME</a>
+                <a href="#" class="header-catalog--select-link">PRODUCT</a>
+                <a href="#" class="header-catalog--select-link">STORES</a>
+                <a href="#" class="header-catalog--select-link">CONTACT</a>
+            </div>
+
+            <button class="header-catalog--cart">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg>
+                <p class="header-catalog--cart__text">CART 2</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                </svg>
+            </button>
+        </section>
+    </header>
+
+    <main class="main">
+        <div class="contrainer">
+            <div class="categories">
+                <div class="categories--text">
+                    <p class="categories--text__green">Shop By</p>
+                    <p class="categories--text__black">Categories</p>
+                </div>
+                <div class="categories--list">
+                    <button class="categories--list__next" aria-label="Next category">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                    </button>
+                    
+                    <div class="categories--list__cards">
+                        <button class="categories--list__card">
+                            <img src="/image/categories/categories--apple.svg" alt="фрукты">
+                            <p class="cat-card__text">Vegetables & Fruits</p>
+                        </button>
+                        <button class="categories--list__card">
+                            <img src="/image/categories/categories--shopping-cart.svg" alt="прочее">
+                            <p class="cat-card__text">Grocery & Staples</p>
+                        </button>
+                        <button class="categories--list__card">
+                            <img src="/image/categories/categories--milk.svg" alt="молочка и прочее">
+                            <p class="cat-card__text">Dairy & Eggs</p>
+                        </button>
+                        <button class="categories--list__card">
+                            <img src="/image/categories/categories--groceries.svg" alt="полезное">
+                            <p class="cat-card__text">Beverages</p>
+                        </button>
+                        <button class="categories--list__card">
+                            <img src="/image/categories/categories--snaks.svg" alt="снеки">
+                            <p class="cat-card__text">Snacks</p>
+                        </button>
+                        <button class="categories--list__card">
+                            <img src="/image/categories/categories--house.svg" alt="товары для дома">
+                            <p class="cat-card__text">Home Care</p>
+                        </button>
+                    </div>
+                    
+                    <button class="categories--list__back" aria-label="Previous category">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="top-featured-products">
+                <div class="top-featured-products--text">
+                    <p class="top-featured-products--text__green">For you</p>
+                    <p class="top-featured-products--text__black">Top Featured Products</p>
+                </div>
+                <div class="top-featured-products--list">
+                    <button class="top-featured-products--list__next" aria-label="Next featured product">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                    </button>
+
+                    <div class="top-featured-products__cards">
+                        <button class="top-featured-products__card">
+                            <div class="tfp__card__up">
+                                <div class="tfp__card__up--sale">
+                                    <p><b>15%Off</b></p>
+                                </div>
+
+                                <div class="tfp__card__up--like">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart" viewBox="0 0 16 16">
+                                            <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.6 7.6 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                        </svg>
+                                </div>
+                            </div>
+
+                            <div class="tfp__card__main">
+                                <img src="/image/tfp/peach.png" alt="персик">
+                                <p class="tfp__card__main__first-text">Available(in stock)</p>
+                                <p class="tfp__card__main__second-text">Fresh organic apricot</p>
+                                <div class="tfp__card__main__price">
+                                    <p class="tfp_now-price">$12</p>
+                                    <p class="tfp_old-price">$15</p>
+                                </div>
+                            </div>
+
+                            <div class="tfp__card__footer">
+                                <div class="tfp-count">
+                                    <div class="tfp-count__down"><b>-</b></div>
+                                    <p class="tfp-count__text">1</p>
+                                    <div class="tfp-count__up"><b>+</b></div>
+                                </div>
+                                <div class="tfp__cart">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#A9A9A9" class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </button>
+
+                        <button class="top-featured-products__card">
+                            <div class="tfp__card__up">
+                                <div class="tfp__card__up--sale">
+                                    <p><b>15%Off</b></p>
+                                </div>
+
+                                <div class="tfp__card__up--like">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart" viewBox="0 0 16 16">
+                                            <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.6 7.6 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                        </svg>
+                                </div>
+                            </div>
+
+                            <div class="tfp__card__main">
+                                <img src="/image/tfp/cucumber.png" alt="огурец">
+                                <p class="tfp__card__main__first-text">Available(in stock)</p>
+                                <p class="tfp__card__main__second-text">Cucumber</p>
+                                <div class="tfp__card__main__price">
+                                    <p class="tfp_now-price">$12</p>
+                                    <p class="tfp_old-price">$15</p>
+                                </div>
+                            </div>
+
+                            <div class="tfp__card__footer">
+                                <div class="tfp-count">
+                                    <div class="tfp-count__down"><b>-</b></div>
+                                    <p class="tfp-count__text">1</p>
+                                    <div class="tfp-count__up"><b>+</b></div>
+                                </div>
+                                <div class="tfp__cart">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#A9A9A9" class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </button>
+
+                        <button class="top-featured-products__card">
+                            <div class="tfp__card__up">
+                                <div class="tfp__card__up--sale">
+                                    <p><b>15%Off</b></p>
+                                </div>
+
+                                <div class="tfp__card__up--like">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart" viewBox="0 0 16 16">
+                                            <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.6 7.6 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                        </svg>
+                                </div>
+                            </div>
+
+                            <div class="tfp__card__main">
+                                <img src="/image/tfp/nut.png" alt="орехи">
+                                <p class="tfp__card__main__first-text">Available(in stock)</p>
+                                <p class="tfp__card__main__second-text">Hazelnuts filbert nut</p>
+                                <div class="tfp__card__main__price">
+                                    <p class="tfp_now-price">$12</p>
+                                    <p class="tfp_old-price">$15</p>
+                                </div>
+                            </div>
+
+                            <div class="tfp__card__footer">
+                                <div class="tfp-count">
+                                    <div class="tfp-count__down"><b>-</b></div>
+                                    <p class="tfp-count__text">1</p>
+                                    <div class="tfp-count__up"><b>+</b></div>
+                                </div>
+                                <div class="tfp__cart">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#A9A9A9" class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </button>
+
+                        <button class="top-featured-products__card">
+                            <div class="tfp__card__up">
+                                <div class="tfp__card__up--sale">
+                                    <p><b>15%Off</b></p>
+                                </div>
+
+                                <div class="tfp__card__up--like">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart" viewBox="0 0 16 16">
+                                            <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.6 7.6 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                        </svg>
+                                </div>
+                            </div>
+
+                            <div class="tfp__card__main">
+                                <img src="/image/tfp/broccoli.png" alt="брокколи">
+                                <p class="tfp__card__main__first-text">Available(in stock)</p>
+                                <p class="tfp__card__main__second-text">raw broccoli</p>
+                                <div class="tfp__card__main__price">
+                                    <p class="tfp_now-price">$12</p>
+                                    <p class="tfp_old-price">$15</p>
+                                </div>
+                            </div>
+
+                            <div class="tfp__card__footer">
+                                <div class="tfp-count">
+                                    <div class="tfp-count__down"><b>-</b></div>
+                                    <p class="tfp-count__text">1</p>
+                                    <div class="tfp-count__up"><b>+</b></div>
+                                </div>
+                                <div class="tfp__cart">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#A9A9A9" class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </button>
+
+                        <button class="top-featured-products__card">
+                            <div class="tfp__card__up">
+                                <div class="tfp__card__up--sale">
+                                    <p><b>15%Off</b></p>
+                                </div>
+
+                                <div class="tfp__card__up--like">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart" viewBox="0 0 16 16">
+                                            <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.6 7.6 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                        </svg>
+                                </div>
+                            </div>
+
+                            <div class="tfp__card__main">
+                                <img src="/image/tfp/quince.png" alt="что-то">
+                                <p class="tfp__card__main__first-text">Available(in stock)</p>
+                                <p class="tfp__card__main__second-text">Organic quince</p>
+                                <div class="tfp__card__main__price">
+                                    <p class="tfp_now-price">$12</p>
+                                    <p class="tfp_old-price">$15</p>
+                                </div>
+                            </div>
+
+                            <div class="tfp__card__footer">
+                                <div class="tfp-count">
+                                    <div class="tfp-count__down"><b>-</b></div>
+                                    <p class="tfp-count__text">1</p>
+                                    <div class="tfp-count__up"><b>+</b></div>
+                                </div>
+                                <div class="tfp__cart">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#A9A9A9" class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+
+                    <button class="top-featured-products--list__back" aria-label="Previous featured product">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="best-values">
+                <div class="bv--text">
+                    <p class="bv--text__green">Offers</p>
+                    <p class="bv--text__black">Best Values</p>
+                </div>
+                <div class="bv--info">
+                    <div class="bv--info__up">
+                        <div class="bv--info__up--daily-essentials">
+                            <img src="/image/best-values/de.svg" alt="лучшие покупки" class="bv--img">
+                            <div class="bv--de__text">
+                                <p class="de--first-text bv--first-text">Daily<br>Essentials</p>
+                                <p class="de--second-text bv--second-text">20% Off<br>Everyday</p>
+                                <button class="de-button bv--button"><a href="#"><b>SHOP NOW</b></a></button>
+                            </div>
+                        </div>
+                        <div class="bv--info__up--get-up-to">
+                            <img src="/image/best-values/get-up-to.svg" alt="стоит купить" class="bv--img">
+                            <div class="bv--get-up-to__text">
+                                <p class="get-up-to--first-text bv--first-text">GET UP TO</p>
+                                <p class="get-up-to--second-text bv--second-text">30% OFF</p>
+                                <button class="get-up-to-button bv--button"><a href="#"><b>SHOP NOW</b></a></button>
+                            </div>
+                        </div>
+                        <div class="bv--info__up--special-discount">
+                            <img src="/image/best-values/sd.svg" alt="специальные предложения" class="bv--img">
+                            <div class="bv--sd__text">
+                                <p class="special-discount--first-text bv--first-text">Special<br>Discount</p>
+                                <p class="special-discount--second-text bv--second-text">For All Items</p>
+                                <button class="special-discount-button bv--button"><a href="#"><b>SHOP NOW</b></a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bv--info__down">
+                        <div class="bv--info__down--cashback">
+                            <div class="bv__down__img-black">
+                                <img src="/image/best-values/cashback.svg" alt="кэшбек" class="bv-down__img">
+                            </div>
+                            <div class="bv--cashback--text">
+                                <p class="cashback--text">Get $5 Cashback! Min Order of $50</p>
+                                <button class="cashback--button"><b>USE CODE :  COMBOSUPERR2A</b></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="logo__link">
+            <div class="info">
+                <div class="logo">
+                    <p class="logo--text"><b>LOGO</b></p>
+                    <p class="logo--emoji">🍎🥝</p>
+                </div>
+                <div class="addrress">
+                    <p class="address--text">Address: 60-49 road 11378 new york</p>
+                </div>
+                <div class="phone">
+                    <p class="phone--text">Phone: +65 11.188.888</p>
+                </div>
+                <div class="email">
+                    <p class="email--text">Email: hello@colorlib.com</p>
+                </div>
+            </div>
+
+            <div class="links">
+                <p class="useful__links"><b>USEFUL LINK</b></p>
+                <ul class="information__links">
+                    <li><a href="#" class="link useful__links--about_us">About Us</a></li>
+                    <li><a href="#" class="link useful__links--about_shop">About Our Shop</a></li>
+                    <li><a href="#" class="link useful__links--delivery_info">Delivery information</a></li>
+                    <li><a href="#" class="link useful__links--privacy_policy">Privacy policy</a></li>
+                    <li><a href="#" class="link useful__links--our_sitemap">Our sitemap</a></li>
+                </ul>
+            </div>
+
+            <div class="impact">
+                <ul class="impact__links">
+                    <li><a href="#" class="impact__links--link impact__links--home">HOME</a></li>
+                    <li><a href="#" class="impact__links--link impact__links--product">PRODUCT</a></li>
+                    <li><a href="#" class="impact__links--link impact__links--contact">CONTACT</a></li>
+                    <li><a href="#" class="impact__links--link impact__links--stores">STORES</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="another">
+
+            <div class="download__app">
+                <p class="download__app--text">Download App</p>
+                <a class="download__app--img--a" href="#"><img src="/image/download__appstore.svg" alt="Download on the App Store" class="download__app--img"></a>
+                <a class="download__app--img--a" href="#"><img src="/image/download__googleplay.svg" alt="Get it on Google Play" class="download__app--img"></a>
+            </div>
+
+            <div class="sign__newsletter">
+                <p class="sign__newsletter--text">Sign Up for Our Newsletter</p>
+                <div class="sign__newsletter--subscribe">
+                    <input type="email" placeholder="Enter Email Address" class="sign__newsletter--subcribe--input">
+                    <button class="sign__newsletter--subcribe--button"><p>SUBSCRIBE</p></button>
+                </div>
+            </div>
+
+            <div class="payment__method">
+                <p class="payment__method--text">Payment Method</p>
+                <img src="/image/payment__method--visa.svg" alt="виза" class="payment__method--img">
+                <img src="/image/payment__method--mc-light.svg" alt="мастеркард лайт" class="payment__method--img">
+                <img src="/image/payment__method--maestro-light.svg" alt="маэстро лайт" class="payment__method--img">
+                <img src="/image/payment__method--cirrus-light.svg" alt="киррус лайт" class="payment__method--img">
+                <img src="/image/payment__method--ae-light.svg" alt="ае лайт" class="payment__method--img">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p class="copyright--text">Copyright ©2021 All rights reserved | This template is made with 💚 by <b>logo</b></p>
+        </div>
+    </footer>
+</body>
+</html>
